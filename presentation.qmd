@@ -1,0 +1,103 @@
+---
+title: "The evolving application of NUMBAS to support teaching and learning across academic disciplines."
+authors: Evi Papadaki*; Tamsin Smith; Ed Southwood; Ben McGovern
+institute: University of Bath
+transition: slide
+format: 
+  revealjs:
+    title-slide-attributes: 
+      data-background-image: title_background.svg
+      data-background-size: contain
+    css: custom.css
+---
+
+## Aims and Structure {background-image="main_background.svg"}
+- Focus: highlight the changing nature of mathematics and statistics support
+- The Mathematics and Statistics Teaching (MAST) service within the Mathematics Resources Centre at the University of Bath is diversifying how we have embedded NUMBAS questions and quizzes as a means for asynchronous teaching and learning. 
+- The recent developments have included using randomised data sets, use within statistics, teaching excel based skills alongside pilots for summative use of the tool.  
+The aim of this presentation is to showcase the benefits and limitations of this expanded usage.
+- Highlighting how our adaptations have grown from our history of initially using NUMBAS as a revision or diagnostic tool for GCSE and A level mathematical content and skills.  
+QR code for accessing the questions and the slides?
+
+## Our team {background-image="main_background.svg"}
+
+## Point of departure {background-image="accent_background.svg"}
+
+## Numbas as a learning tool
+- Self-study
+- Knowledge check
+- Practice
+- Enriching online resources
+- Interactive self-study notes
+- Additional functionalities compared to moodle quizzes
+
+## Focus on supporting the students
+
+## Numbas as a teaching tool
+- Diagnostic tool (pilot)
+- Enriching online resources
+- Practice taught skills (can be used during the lectures and seminars or for additional practice)
+- Low stake summative assessment (pilot)
+- The difference is that the mathematical content and follows the content being taught with contextualised examples.
+- Focus on supporting and tailoring teaching
+
+## Addressing the needs for mathematics and statistics in other disciplines
+- The mathematical language is adapted to fit the disciplinary vocabulary
+- MASH is no longer the stakeholder for Numbas
+- Rising awareness
+- Training staff
+- Departmental staff are supported to develop resources and maintain then in their own workspace
+
+## Mathematics in context
+- Elements from our recent poster presentation at INDRUM 2024
+
+## Statistics
+- Randomised datasets
+- Skills in Excel
+- Randomised datasets
+- Providing dynamic advice that include walk-thoughts with changing cell-numbers accordingly
+
+## Pros
+- New questions
+- Adaptable contexts
+- Wider use with in-house support in addition to the support - offered by Newcastle
+- Positive feedback from students and lecturers
+- Exploring potentially new things and develop and explant the use of NUMBAS
+- From a business perspective MAST and MASH are essential elements of teaching and learning support at the University of Bath
+- Shared ownership of resources – communities of practice
+
+## Cons
+Technology-wise
+- Working with context can be challenging but not limiting
+- Adapting questions in new contexts is not always straight-forward
+- Troubleshooting can be time consuming
+Organisational
+- There is no one-size-fits all training. Depending on the level of confidence of our collaborators with NUMBAS, mathematics or technology in general. Training more colleagues to use NUMBAS requires personalised induction. - Examples: Social Policy – MAST is still taking care of the technical aspects while the lecturer is more involved in providing insights about the context and reviewing. NatSci – MAST produced the questions which are revised in long term with the help of the Mathematics lecturer and the Director of Studies. Chemistry – MAST trained the lecturer who is now developing their own questions. MAST reviews the questions and support the development that pushes the current NUMBAS capabilitities to the limit (e.g., adding new extensions). That being said, we need to evaluate our approach in each new collaboration and adapt our Modus operanti accordingly.  
+## It takes a village
+### To make these resources
+Core MASH and MAST team
+- Design of questions
+- Develop resources (e.g., quizzes)
+I n-house Numbas training
+Academic staff
+- Provide context (e.g., relevant applications, disciplinary priorities, notation)
+- Review content
+- Co-design questions
+Casual workers
+
+## Conclusions & the future
+- Widening the use of Numbas means that we have changed the way both students and staff engage with Mathematics and Statistics support at the University of Bath.
+- In addition to provisions for supporting struggling and curious students that interact with our resources or come to - our drop-ins, the nature of our contact with lecturers has changed, with more opportunities for collaboration, shared knowledge and practice.
+- Future:
+- Keep trying using Numbas for teaching mathematics and statistics
+- Develop a systematic review process for new numbas questions (with shared principles and clear guidelines to ensure the quality of the resources produced as more and more - people are involved in the process. These guidelines will - go beyond the development of the question and into suggestions for use in teaching)
+- Developing and offering bespoke training sessions and advice
+- Keep adding resources to our database
+- MAST will keep working on our goals to support and enrich teaching practices
+- Explore and assess the use of Numbas in teaching identifying good practices to share across communities.
+
+## Thank you & Contact details
+
+## References
+
+## Notes

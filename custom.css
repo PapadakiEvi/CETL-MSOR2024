@@ -13,7 +13,13 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
-
+/* cell background */
+.text-col {
+  height: 100%;
+  background-color: #B3B3DB;
+  padding-left: 5px;
+  box-sizing: border-box;
+}
 /* css styles */
 
 .bib-entry {
@@ -29,73 +35,57 @@ h1 { font-size: 100%; }
 
 /*-- scss:defaults --*/
 
-// Import fonts (define mainfont in _quarto.yml)
-/*@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@300&family=Roboto+Mono:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Nunito:wght@300;800&family=Roboto+Mono:wght@400;700&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Nunito:wght@300;800&family=Roboto+Mono:wght@400;700&Amatic+SC:wght@400;700&family=Cabin+Sketch:wght@400;700&family=Dosis:wght@200..800&family=Grandiflora+One&family=La+Belle+Aurore&family=Reenie+Beanie&display=swap');
-
-// Colors
-$light-blue: #c3d2e8;
-$dark-blue: #768aa7;
-$white: #FFFFFF;
-$dark-gray: #5A5856;
-$gray: #333333;
-$light-gray: #64605f;
-$purple: #662542; //#AE8BD1;
-$black: #000000;
-$burnt-orange: #f4a291;
-
-// Base document colors
-$navbar-brand: $dark-blue;
-$navbar-bg: $white;
-$navbar-fg: $black; 
-$navbar-hl: $dark-blue; 
-$body-bg: $light-blue;
-$body-color: $gray;
-$footer-bg: $white; 
-$link-color: $purple;
-
-// Inline code
-$code-bg: $white;
-$code-color: $burnt-orange; //$purple; 
-
-// Code blocks
-$code-block-bg: $white;
-
 /*-- scss:rules --*/
 
 
 .reveal h1, h2, h3, h4, h5, h6 {
   letter-spacing: 3px;
-  font-weight: 500;
+  font-weight: 600;
 
 }
 
 h1 {
     position: absolute;
-    bottom: -690px;
+    bottom: -760px;
     left: 20px;
     text-align: right;
-    font-size-adjust: 0.25;
+    font-size-adjust: 0.3;
     width: 65%;
-    line-height: 50px !important;
+    line-height: 60px !important;
+}
+
+h2:not(:empty) {
+  
+     border-bottom: 2px solid #B3B3DB;  /* Adjust the color and thickness as needed */
+    padding-bottom: 5px;  /* Space between the heading text and the line */
+    margin-bottom: 20px;  /* Space below the heading to the next element */
+    
+}
+
+/* Ensure that empty h2 elements have no margin or padding */
+h2:empty {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 .reveal .quarto-title-block .quarto-title-authors {
   position: absolute;
-  bottom: -700px;
-  right: -80px;
+  bottom: -740px;
+  right: -40px;
   text-align: left;
-  font-size-adjust: 0.4;
+  font-size-adjust: 0.85;
   width: 25%;
-  line-height: 1 !important;
+  line-height: 1.4 !important;
 }
 
 .reveal .quarto-title-block .quarto-title-authors .quarto-title-authors .quarto-title-affiliation {
   position: absolute;
   bottom: -700px;
-  right: -80px;
+  right: -40px;
   text-align: left;
-  font-size-adjust: 0.3;
+  font-size-adjust: 1.2;
   width: 25%;
-  line-height: 1 !important;
+  line-height: 1.4 !important;
+  
+

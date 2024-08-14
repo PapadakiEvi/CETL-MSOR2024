@@ -139,7 +139,7 @@ Differentiate between focus on supporting students as a service versus supportin
 #### *Separable Differential Equations - Radioactive Decay*
 
 ```{=html}
-<iframe width="100%" height="630" src="https://numbas.mathcentre.ac.uk/question/125558/integration-solving-separable-differential-equations-radioactive-decay/embed/" title="Numbas"></iframe>
+<iframe width="100%" height="630" data-src="https://numbas.mathcentre.ac.uk/question/125558/integration-solving-separable-differential-equations-radioactive-decay/embed/" data-preload title="Numbas"></iframe>
 ```
 :::
 :::

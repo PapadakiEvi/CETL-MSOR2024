@@ -176,8 +176,16 @@ Differentiate between focus on supporting students as a service versus supportin
 ::: {.column .text-col width="33%"}
 ### Mathematics in other disciplines
 
+&nbsp;<br>
+
 -   Randomised context with realistic and relevant examples
+
+&nbsp;<br>
+
 -   Working collaboratively with staff in academic departments to develop questions that fit the disciplinary needs, priorities and vocabulary.
+
+&nbsp;<br>
+
 -   Departmental staff are supported to develop and maintain the resources.
 :::
 
@@ -196,7 +204,12 @@ Differentiate between focus on supporting students as a service versus supportin
 ::: {.column .text-col width="33%"}
 ### Statistics and EXCEL skills
 
+&nbsp;<br><br>
+
 -   Randomised datasets
+
+&nbsp;<br>
+
 -   Walk-throughs with corresponding cell numbers
 :::
 
@@ -281,19 +294,19 @@ It takes a village to make these resources - Core MASH and MAST team
 🧩 Flexibility and ease of use
 :::
 
-&nbsp;<br><br>
+&nbsp;<br>
 
 ::: fragment
 🎲 Randomisation
 :::
 
-&nbsp;<br><br>
+&nbsp;<br>
 
 ::: fragment
 🌱 Adaptable
 :::
 
-&nbsp;<br><br>
+&nbsp;<br>
 
 ::: fragment
 🚀 Promotes active learning and diversifying teaching practices
@@ -335,7 +348,7 @@ It takes a village to make these resources - Core MASH and MAST team
 💻 Technology
 :::
 
-&nbsp;<br><br>
+&nbsp;<br>
 
 ::: fragment
 ⏳Time and resources
@@ -361,7 +374,7 @@ It takes a village to make these resources - Core MASH and MAST team
 
 ## In conclusion
 
--   Exploring the potentials of Numbas lead changed the way both students and staff engage with Mathematics and Statistics support support at the University of Bath.
+-   Exploring the potentials of Numbas changed the way both students and staff engage with Mathematics and Statistics support support at the University of Bath.
 
 -   We are developing a systematic review process for co-designed questions to ensure quality.
 
@@ -419,11 +432,11 @@ We look forward to the discussion and questions.
 &nbsp;<br><br><br><br><br><br>
 
 ::: {style="font-size: 55%; "}
-**MAST**: Evi Papadaki & Tamsin Smith
+**Evi Papadaki & Tamsin Smith** (MAST)
 
 @ [mash-mast\@bath.ac.uk](mailto:mash-mast@bath.ac.uk)
 
-**MASH**: Ed Southwood & Ben McGovern
+**Ed Southwood & Ben McGovern** (MASH)
 
 @ [mash\@bath.ac.uk](mailto:mash@bath.ac.uk)
 

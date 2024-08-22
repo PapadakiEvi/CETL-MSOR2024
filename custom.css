@@ -20,6 +20,17 @@
   padding-left: 5px;
   box-sizing: border-box;
 }
+
+/* Add this to your custom CSS file */
+.incremental > * {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.reveal .incremental .fragment.visible {
+    opacity: 1;
+}
+
 /* css styles */
 
 .bib-entry {
@@ -46,7 +57,7 @@ h1 { font-size: 100%; }
 
 h1 {
     position: absolute;
-    bottom: -760px;
+    bottom: -740px;
     left: 20px;
     text-align: right;
     font-size-adjust: 0.3;
@@ -74,7 +85,7 @@ h2:empty {
   bottom: -740px;
   right: -40px;
   text-align: left;
-  font-size-adjust: 0.85;
+  font-size-adjust: 0.5;
   width: 25%;
   line-height: 1.4 !important;
 }
@@ -84,7 +95,7 @@ h2:empty {
   bottom: -700px;
   right: -40px;
   text-align: left;
-  font-size-adjust: 1.2;
+  font-size-adjust: 0.5;
   width: 25%;
   line-height: 1.4 !important;
   

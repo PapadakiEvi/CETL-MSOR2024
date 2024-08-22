@@ -8,10 +8,11 @@ format:
     center: false
     width: 1500
     margin: 0.1
+    reference-location: document
     logo: mashlogo200.png
     slide-number: true
     incremental: true
-    smaller: true
+    smaller: false
     auto-stretch: false
     title-slide-attributes: 
       data-background-image: title_background.svg
@@ -23,18 +24,7 @@ format:
 
 -   Setting the scene
 
-    ::: nonincremental
-    -   What is Numbas?
-    -   Our team
-    :::
-
 -   Numbas as a teaching and learning tool
-
-    ::: nonincremental
-    -   Mathematics in other disciplines
-
-    -   Statistics and EXCEL skills
-    :::
 
 -   Benefits and limitations
 
@@ -43,9 +33,22 @@ format:
 ::: notes
 The aim of this presentation is to showcase the benefits and limitations of diversifying the use of Numbas to support teaching and learning across the University of Bath.
 
-In this presentation, we aim to highlight the changing nature of mathematics and statistics support at the University of Bath. Specifically, we've experimented and expanded the use of Numbas to support the teaching and learning at the university of Bath. - The Mathematics and Statistics Teaching (MAST) service within the Mathematics Resources Centre at the University of Bath is diversifying how we have embedded NUMBAS questions and quizzes as a means for asynchronous teaching and learning. - The recent developments have included using randomised data sets, use within statistics, teaching excel based skills alongside pilots for summative use of the tool.\
-The aim of this presentation is to showcase the benefits and limitations of this expanded usage. - Highlighting how our adaptations have grown from our history of initially using NUMBAS as a revision or diagnostic tool for GCSE and A level mathematical content and skills.\
-QR code for accessing the questions and the slides?
+In this presentation, we aim to highlight the changing nature of mathematics and statistics support at the University of Bath. - Setting the scene
+
+```         
+-   What is Numbas?
+-   Our team
+```
+
+-   Numbas as a teaching and learning tool
+
+    -   Mathematics in other disciplines
+
+    -   Statistics and EXCEL skills
+
+-   Benefits and limitations
+
+-   Conclusion & future directions
 :::
 
 ##  {.nonincremental}
@@ -65,10 +68,12 @@ QR code for accessing the questions and the slides?
 
 -   design of open-source dynamic mathematical assessments
 
--   WCAG 2.1 Level AA accessibility conformance
+-   WCAG 2.1 Level AA accessibility conformance[^1]
 :::
 :::
 :::
+
+[^1]: Read the accessibility statement for the Numbas editor here: <https://docs.numbas.org.uk/en/latest/accessibility/editor.html>
 
 ::: notes
 NUMBAS is a web-based system used to design open-source dynamic assessment questions for mathematical subjects. The use of NUMBAS was grounded on its accessibility and easy-to-use features.
@@ -85,6 +90,7 @@ all of the criteria of WCAG 2.1 Level AAA except 2.2.4: Interruptions, 3.1.3: Un
 
 ::: {.column width="65%"}
 #### *Our team*
+
 ```{r}
 library(DiagrammeR)
 library(DiagrammeRsvg)
@@ -124,7 +130,9 @@ cat(svg_code, file = "team.svg")
 
 ```
 
+::: {layout="[[-1], [1], [-1]]"}
 ![](team.svg){fig-alt="A diagram depicting the Mathematics Resource Centre services and interactions with students and lectures/academic departments." fig-align="center" width="100%"}
+:::
 :::
 :::
 
@@ -145,8 +153,8 @@ MAST is designed to support academics at the University of Bath who deliver math
 -   Enriching self-study resources
 
     ::: nonincremental
-    -   Knowledge-check and practice (Training space)
-    -   self-study notes (Zero to hero\[link to resource\])
+    -   Knowledge-check and practice on Moodle
+    -   self-study notes
     -   Use in drop-in
     :::
 
@@ -162,7 +170,7 @@ MAST is designed to support academics at the University of Bath who deliver math
 Differentiate between focus on supporting students as a service versus supporting lecturers to improve the teaching in their alocated modules. These resources follow the content being taught with contextualised examples.
 :::
 
-##  {.nonincremental}
+##  {.nonincremental .smaller}
 
 ::: columns
 ::: {.column .text-col width="33%"}
@@ -182,7 +190,7 @@ Differentiate between focus on supporting students as a service versus supportin
 :::
 :::
 
-##  {.nonincremental}
+##  {.nonincremental .smaller}
 
 ::: columns
 ::: {.column .text-col width="33%"}
@@ -200,6 +208,7 @@ Differentiate between focus on supporting students as a service versus supportin
 ```
 :::
 :::
+
 ## It takes a village to make these resources {.nonincremental}
 
 ```{r}
@@ -240,16 +249,16 @@ cat(svg_code, file = "diagram.svg")
 
 ![](diagram.svg){fig-alt="Diagram depicting the roles of different groups in creating Numbas resources: Central Node labeled 'NUMBAS Resources' with an elliptical shape and a light purple background. Surrounding nodes include 'Core MASH and MAST Team' at the top, 'Collaborators' on the bottom left, and 'Casual Workers' on the bottom right. Arrows connect these surrounding nodes to the central node illustrating their contributions." fig-align="center" width="100%"}
 
-
 ::: notes
-It takes a village to make these resources
--   Core MASH and MAST team
+It takes a village to make these resources - Core MASH and MAST team
 
-    -   Design of questions
+```         
+-   Design of questions
 
-    -   Develop resources (e.g., quizzes)
+-   Develop resources (e.g., quizzes)
 
-    -   In-house Numbas training and support for staff
+-   In-house Numbas training and support for staff
+```
 
 -   Collaborators
 
@@ -264,18 +273,31 @@ It takes a village to make these resources
     -   Draft questions
 
     -   Experiment with new formats and designs
-
 :::
 
 ## Advantages
 
--   🧩 Flexibility and ease of use
+::: fragment
+🧩 Flexibility and ease of use
+:::
 
--   🎲 Randomisation
+&nbsp;<br><br>
 
--   🌱 Adaptable
+::: fragment
+🎲 Randomisation
+:::
 
--   🚀 Promotes active learning and diversifying teaching practices
+&nbsp;<br><br>
+
+::: fragment
+🌱 Adaptable
+:::
+
+&nbsp;<br><br>
+
+::: fragment
+🚀 Promotes active learning and diversifying teaching practices
+:::
 
 ::: notes
 -   Flexibility and easy of use:
@@ -307,9 +329,17 @@ It takes a village to make these resources
 
 ## Challenges
 
--   💻 Technology
+&nbsp;<br><br>
 
--   ⏳Time and resources
+::: fragment
+💻 Technology
+:::
+
+&nbsp;<br><br>
+
+::: fragment
+⏳Time and resources
+:::
 
 ::: notes
 -   **Technology:**
@@ -333,20 +363,15 @@ It takes a village to make these resources
 
 -   Exploring the potentials of Numbas lead changed the way both students and staff engage with Mathematics and Statistics support support at the University of Bath.
 
-    ::: nonincremental
-    -   Provisions for supporting struggling and curious students
-    -   Opportunities for collaboration, shared knowledge and practice
-    :::
+-   We are developing a systematic review process for co-designed questions to ensure quality.
 
--   We are developing a systematic review process for co-designed questions to ensure quality
+-   We are working together and help one another.
 
--   We are working together and help one another
-
--   What's next?
+-   **What's next?**
 
     ::: nonincremental
-    -   Keep challenging the limits of Numbas and expand the MASH question bank
-    -   Explore and evaluate the use of Numbas in teaching non-mathematics specialists
+    -   Keep challenging the limits of Numbas and expand the MASH question bank.
+    -   Explore and evaluate the use of Numbas in teaching non-mathematics specialists.
     :::
 
 ::: notes
@@ -388,6 +413,19 @@ It takes a village to make these resources
 -   Explore and assess the use of Numbas in teaching identifying good practices to share across communities.
 :::
 
-## Thank you {background-image="title_background.svg" background-size="cover"}
+## Thank you {.center background-image="title_background.svg" background-size="cover"}
 
-We look forward to the discussion and questions \[add contact details in the white space\]
+We look forward to the discussion and questions.
+&nbsp;<br><br><br><br><br><br>
+
+::: {style="font-size: 55%; "}
+**MAST**: Evi Papadaki & Tamsin Smith
+
+@ [mash-mast\@bath.ac.uk](mailto:mash-mast@bath.ac.uk)
+
+**MASH**: Ed Southwood & Ben McGovern
+
+@ [mash\@bath.ac.uk](mailto:mash@bath.ac.uk)
+
+**Mathematics Resources Centre**: <https://www.bath.ac.uk/professional-services/mathematics-resources-centre-mash/>
+:::

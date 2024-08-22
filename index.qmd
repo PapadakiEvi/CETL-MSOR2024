@@ -85,8 +85,46 @@ all of the criteria of WCAG 2.1 Level AAA except 2.2.4: Interruptions, 3.1.3: Un
 
 ::: {.column width="65%"}
 #### *Our team*
+```{r}
+library(DiagrammeR)
+library(DiagrammeRsvg)
+library(rsvg)
 
-![](TeamStructure.png){fig-alt="A diagram depicting the Mathematics Resource Centre services and interactions with students and lectures/academic departments." fig-align="center" width="100%"}
+# Create the diagram
+team <- grViz("
+digraph numbas_contributors {
+
+  # Use neato for flexible node placement
+  graph [layout = fdp, beautify=true overlap = prism, splines = curved, nodesep = 1.5, ranksep = 1.5]
+
+  # Define the nodes with specific styling
+  node [fontname = Helvetica, fontsize = 18, shape = rect, style = rounded, style = filled, fillcolor = transparent, color = \"#B3B3DB\" width = 1, height = 1, margin = 0.2]
+
+  MASH [label = 'MASH & SAS', shape = ellipse, fillcolor = \"#c7ce48\", color= transparent, width = 2, height = 1]
+
+  MAST [label = 'MAST', shape = ellipse, fillcolor = \"#c7ce48\",color= transparent, width = 2, height = 1]
+  
+  dep [label = 'Lecturers\n&\n Departments', fillcolor = transparent, width = 1, height = 1]
+  
+  students [label = 'Students', fillcolor = transparent, width = 1, height = 1]
+
+
+  # Define edges
+  MASH -> students [dir = both]
+  MAST -> dep [dir = both]
+  dep -> students [dir = both]
+  MASH -> dep [style=dashed color=lightsteelblue]
+
+}
+")
+
+# Save the SVG as a file
+svg_code <- export_svg(team)
+cat(svg_code, file = "team.svg")
+
+```
+
+![](team.svg){fig-alt="A diagram depicting the Mathematics Resource Centre services and interactions with students and lectures/academic departments." fig-align="center" width="100%"}
 :::
 :::
 
@@ -162,18 +200,49 @@ Differentiate between focus on supporting students as a service versus supportin
 ```
 :::
 :::
+## It takes a village to make these resources {.nonincremental}
 
-##  {.nonincremental}
+```{r}
+library(DiagrammeR)
+library(DiagrammeRsvg)
+library(rsvg)
 
-::: columns
-::: {.column .text-col width="33%"}
-### It takes a village...
-:::
+# Create the diagram
+diagram <- grViz("
+digraph numbas_contributors {
 
-::: {.column width="65%"}
-### to make these resources
+  # Use neato for flexible node placement
+  graph [layout = twopi, root= numbas overlap = prism, splines = curved, nodesep = 1.5, ranksep = 1.5]
 
-::: nonincremental
+  # Define the nodes with specific styling
+  node [fontname = Helvetica, fontsize = 26, shape = box, style = filled, fillcolor = transparent, color = transparent width = 2, height = 1.5, margin = 0.2]
+
+  numbas [label = 'Numbas\nResources', shape = ellipse, fillcolor = \"#B3B3DB\", width = 2, height = 1]
+
+  group1 [label = <<B>Collaborators</B><BR ALIGN='LEFT'/>- Provide context<BR ALIGN='LEFT'/>- Review content<BR ALIGN='LEFT'/>- Co-design questions>, fillcolor = transparent, width = 4, height = 2.5]
+
+  group2 [label = <<B>Core MASH and MAST Team</B><BR ALIGN='LEFT'/>- Design of questions<BR ALIGN='LEFT'/>- Develop resources<BR ALIGN='LEFT'/>- In-house Numbas training and support>, fillcolor = transparent, width = 4, height = 2.5]
+
+  group3 [label = <<B>Casual Workers</B><BR ALIGN='LEFT'/>- Draft questions<BR ALIGN='LEFT'/>- Experiment with new formats and designs>, fillcolor = transparent, width = 4, height = 2.5]
+
+  # Define edges
+  group1 -> numbas
+  group2 -> numbas
+  group3 -> numbas
+}
+")
+
+# Save the SVG as a file
+svg_code <- export_svg(diagram)
+cat(svg_code, file = "diagram.svg")
+
+```
+
+![](diagram.svg){fig-alt="Diagram depicting the roles of different groups in creating Numbas resources: Central Node labeled 'NUMBAS Resources' with an elliptical shape and a light purple background. Surrounding nodes include 'Core MASH and MAST Team' at the top, 'Collaborators' on the bottom left, and 'Casual Workers' on the bottom right. Arrows connect these surrounding nodes to the central node illustrating their contributions." fig-align="center" width="100%"}
+
+
+::: notes
+It takes a village to make these resources
 -   Core MASH and MAST team
 
     -   Design of questions
@@ -181,36 +250,24 @@ Differentiate between focus on supporting students as a service versus supportin
     -   Develop resources (e.g., quizzes)
 
     -   In-house Numbas training and support for staff
-:::
 
-::: nonicremental
 -   Collaborators
 
-    ::: nonincremental
     -   Provide context (e.g., relevant applications, disciplinary priorities, notation)
 
     -   Review content
 
     -   Co-design questions
-    :::
-:::
 
-::: nonicremental
 -   Casual workers
 
-    ::: nonincremental
     -   Draft questions
 
     -   Experiment with new formats and designs
-    :::
-:::
-:::
-:::
 
 :::
 
 ## Advantages
-
 
 -   🧩 Flexibility and ease of use
 
@@ -219,7 +276,6 @@ Differentiate between focus on supporting students as a service versus supportin
 -   🌱 Adaptable
 
 -   🚀 Promotes active learning and diversifying teaching practices
-
 
 ::: notes
 -   Flexibility and easy of use:
@@ -255,8 +311,7 @@ Differentiate between focus on supporting students as a service versus supportin
 
 -   ⏳Time and resources
 
-:::notes
-
+::: notes
 -   **Technology:**
 
     -   Adapting the context of a question can be difficult
@@ -273,6 +328,7 @@ Differentiate between focus on supporting students as a service versus supportin
 
     -   Each collaboration requires a tailored approach and ongoing evaluation
 :::
+
 ## In conclusion
 
 -   Exploring the potentials of Numbas lead changed the way both students and staff engage with Mathematics and Statistics support support at the University of Bath.
@@ -281,24 +337,6 @@ Differentiate between focus on supporting students as a service versus supportin
     -   Provisions for supporting struggling and curious students
     -   Opportunities for collaboration, shared knowledge and practice
     :::
--   We are developing a systematic review process for co-designed questions to ensure quality
-
--   We are working together and help one another
-
--   What's next?
-
-    ::: nonincremental
-    -   Keep challenging the limits of Numbas and expand the MASH question bank
-    -   Explore and evaluate the use of Numbas in teaching non-mathematics specialists
-
-::: notes
-
--   Exploring the potentials of Numbas lead changed the way both students and staff engage with Mathematics and Statistics support support at the University of Bath.
-
-    -   Provisions for supporting struggling and curious students
-    -   Opportunities for collaboration, shared knowledge and practice
-    -   MASH and MAST are a hub for teaching and learning mathematics and statistics \[??? I need to think how to say this it sounds wierd\]
-
 
 -   We are developing a systematic review process for co-designed questions to ensure quality
 
@@ -311,6 +349,23 @@ Differentiate between focus on supporting students as a service versus supportin
     -   Explore and evaluate the use of Numbas in teaching non-mathematics specialists
     :::
 
+::: notes
+-   Exploring the potentials of Numbas lead changed the way both students and staff engage with Mathematics and Statistics support support at the University of Bath.
+
+    -   Provisions for supporting struggling and curious students
+    -   Opportunities for collaboration, shared knowledge and practice
+    -   MASH and MAST are a hub for teaching and learning mathematics and statistics \[??? I need to think how to say this it sounds wierd\]
+
+-   We are developing a systematic review process for co-designed questions to ensure quality
+
+-   We are working together and help one another
+
+-   What's next?
+
+    ::: nonincremental
+    -   Keep challenging the limits of Numbas and expand the MASH question bank
+    -   Explore and evaluate the use of Numbas in teaching non-mathematics specialists
+    :::
 
 -   Widening the use of Numbas means that we have changed the way both students and staff engage with Mathematics and Statistics support at the University of Bath.
 

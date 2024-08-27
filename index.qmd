@@ -11,7 +11,7 @@ format:
     reference-location: document
     logo: mashlogo200.png
     slide-number: true
-    incremental: true
+    incremental: false
     smaller: false
     auto-stretch: false
     title-slide-attributes: 
@@ -64,9 +64,9 @@ In this presentation, we aim to highlight the changing nature of mathematics and
 ::: nonincremental
 -   web-based editor
 
--   developed by mathematicians at Newcastle University
-
 -   design of open-source dynamic mathematical assessments
+
+-   developed by mathematicians at Newcastle University
 
 -   WCAG 2.1 Level AA accessibility conformance[^1]
 :::
@@ -150,21 +150,29 @@ MAST is designed to support academics at the University of Bath who deliver math
 
 ## Numbas for teaching and learning
 
--   Enriching self-study resources
+::: columns
+::: column
+:::{.fragment}
+📎 **Enriching self-study resources**
 
-    ::: nonincremental
-    -   Knowledge-check and practice on Moodle
-    -   self-study notes
-    -   Use in drop-in
-    :::
+-   Knowledge-check and practice on Moodle
 
--   Tailoring teaching for specific modules
+-   self-study notes
 
-    ::: nonincremental
-    -   Diagnostic tool
-    -   Enriching Moodle resources for practice
-    -   Low stake summative assessment (pilot)
-    :::
+-   Use in drop-in
+:::
+:::
+
+::: column
+:::{.fragment}
+🪡 **Tailoring teaching for specific modules**
+
+-   Diagnostic tool
+-   Enriching Moodle resources for practice
+-   Low stake summative assessment (pilot)
+:::
+:::
+:::
 
 ::: notes
 Differentiate between focus on supporting students as a service versus supporting lecturers to improve the teaching in their alocated modules. These resources follow the content being taught with contextualised examples.
@@ -174,19 +182,19 @@ Differentiate between focus on supporting students as a service versus supportin
 
 ::: columns
 ::: {.column .text-col width="33%"}
-### Mathematics in other disciplines
+### Mathematics in other disciplines {.nonincremental}
 
-&nbsp;<br>
+ <br>
 
 -   Randomised context with realistic and relevant examples
 
-&nbsp;<br>
+ <br>
 
--   Working collaboratively with staff in academic departments to develop questions that fit the disciplinary needs, priorities and vocabulary.
+-   Working collaboratively with academic staff to develop questions that fit the disciplinary needs, priorities and vocabulary.
 
-&nbsp;<br>
+ <br>
 
--   Departmental staff are supported to develop and maintain the resources.
+-   Collaborators are supported to develop and maintain the resources.
 :::
 
 ::: {.column width="65%"}
@@ -202,13 +210,13 @@ Differentiate between focus on supporting students as a service versus supportin
 
 ::: columns
 ::: {.column .text-col width="33%"}
-### Statistics and EXCEL skills
+### Statistics and EXCEL skills {.nonincremental}
 
-&nbsp;<br><br>
+ <br><br>
 
 -   Randomised datasets
 
-&nbsp;<br>
+ <br>
 
 -   Walk-throughs with corresponding cell numbers
 :::
@@ -222,7 +230,7 @@ Differentiate between focus on supporting students as a service versus supportin
 :::
 :::
 
-## It takes a village to make these resources {.nonincremental}
+## It takes a village to make these resources 
 
 ```{r}
 library(DiagrammeR)
@@ -294,19 +302,19 @@ It takes a village to make these resources - Core MASH and MAST team
 🧩 Flexibility and ease of use
 :::
 
-&nbsp;<br>
+ <br>
 
 ::: fragment
 🎲 Randomisation
 :::
 
-&nbsp;<br>
+ <br>
 
 ::: fragment
 🌱 Adaptable
 :::
 
-&nbsp;<br>
+ <br>
 
 ::: fragment
 🚀 Promotes active learning and diversifying teaching practices
@@ -342,13 +350,13 @@ It takes a village to make these resources - Core MASH and MAST team
 
 ## Challenges
 
-&nbsp;<br><br>
+ <br><br>
 
 ::: fragment
 💻 Technology
 :::
 
-&nbsp;<br>
+ <br>
 
 ::: fragment
 ⏳Time and resources
@@ -374,11 +382,13 @@ It takes a village to make these resources - Core MASH and MAST team
 
 ## In conclusion
 
+::: incremental
 -   Exploring the potentials of Numbas changed the way both students and staff engage with Mathematics and Statistics support support at the University of Bath.
+
+-   We are working together and help one another.
 
 -   We are developing a systematic review process for co-designed questions to ensure quality.
 
--   We are working together and help one another.
 
 -   **What's next?**
 
@@ -386,6 +396,7 @@ It takes a village to make these resources - Core MASH and MAST team
     -   Keep challenging the limits of Numbas and expand the MASH question bank.
     -   Explore and evaluate the use of Numbas in teaching non-mathematics specialists.
     :::
+:::
 
 ::: notes
 -   Exploring the potentials of Numbas lead changed the way both students and staff engage with Mathematics and Statistics support support at the University of Bath.
@@ -394,9 +405,10 @@ It takes a village to make these resources - Core MASH and MAST team
     -   Opportunities for collaboration, shared knowledge and practice
     -   MASH and MAST are a hub for teaching and learning mathematics and statistics \[??? I need to think how to say this it sounds wierd\]
 
+-   We are working together and help one another
+
 -   We are developing a systematic review process for co-designed questions to ensure quality
 
--   We are working together and help one another
 
 -   What's next?
 
@@ -428,17 +440,16 @@ It takes a village to make these resources - Core MASH and MAST team
 
 ## Thank you {.center background-image="title_background.svg" background-size="cover"}
 
-We look forward to the discussion and questions.
-&nbsp;<br><br><br><br><br><br>
+We look forward to the discussion and questions.  <br><br><br><br><br><br>
 
 ::: {style="font-size: 55%; "}
 **Evi Papadaki & Tamsin Smith** (MAST)
 
-@ [mash-mast\@bath.ac.uk](mailto:mash-mast@bath.ac.uk)
+\@ [mash-mast\@bath.ac.uk](mailto:mash-mast@bath.ac.uk)
 
 **Ed Southwood & Ben McGovern** (MASH)
 
-@ [mash\@bath.ac.uk](mailto:mash@bath.ac.uk)
+\@ [mash\@bath.ac.uk](mailto:mash@bath.ac.uk)
 
 **Mathematics Resources Centre**: <https://www.bath.ac.uk/professional-services/mathematics-resources-centre-mash/>
 :::

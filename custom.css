@@ -40,6 +40,7 @@
 }
 
 
+
 h1 { font-size: 100%; }
 
 
@@ -56,7 +57,7 @@ h1 { font-size: 100%; }
 }
 
 h1 {
-    position: absolute;
+    position: fixed;
     bottom: -740px;
     left: 20px;
     text-align: right;
@@ -81,7 +82,7 @@ h2:empty {
 }
 
 .reveal .quarto-title-block .quarto-title-authors {
-  position: absolute;
+  position: fixed;
   bottom: -740px;
   right: -40px;
   text-align: left;
@@ -91,7 +92,7 @@ h2:empty {
 }
 
 .reveal .quarto-title-block .quarto-title-authors .quarto-title-authors .quarto-title-affiliation {
-  position: absolute;
+  position: fixed;
   bottom: -700px;
   right: -40px;
   text-align: left;

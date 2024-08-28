@@ -1,6 +1,6 @@
 ---
 title: "The evolving application of NUMBAS to support teaching and learning across academic disciplines."
-authors: Evi Papadaki*; Tamsin Smith; Ed Southwood & Ben McGovern
+authors: Evi&nbsp;Papadaki*; Tamsin&nbsp;Smith; Ed&nbsp;Southwood & Ben&nbsp;McGovern
 institute: University of Bath
 transition: fade
 format: 
@@ -22,6 +22,7 @@ format:
 
 ## Overview
 
+
 -   Setting the scene
 
 -   Numbas as a teaching and learning tool
@@ -29,6 +30,23 @@ format:
 -   Benefits and limitations
 
 -   Conclusion & future directions
+
+:::{.columns style="font-size: 80%; text-align:center"}
+:::{.column}
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+Access the slides on [bit.ly/MASHBath
+](bit.ly/MASHBath) <br>
+or by scanning the QR code
+
+![](qrcode_papadakievi.github.io.png){fig-alt="QR code for accessing the slide" fig-align="center" fig-pos='H' width="40%"}
+:::
+:::
+
+
 
 ::: notes
 The aim of this presentation is to showcase the benefits and limitations of diversifying the use of Numbas to support teaching and learning across the University of Bath.
@@ -118,6 +136,7 @@ digraph numbas_contributors {
   # Define edges
   MASH -> students [dir = both]
   MAST -> dep [dir = both]
+  MASH -> MAST [dir = both color=\"#c7ce48\"]
   dep -> students [dir = both]
   MASH -> dep [style=dashed color=lightsteelblue]
 
@@ -190,11 +209,11 @@ Differentiate between focus on supporting students as a service versus supportin
 
  <br>
 
--   Working collaboratively with academic staff to develop questions that fit the disciplinary needs, priorities and vocabulary.
+-   Working collaboratively with academic staff to develop questions that fit the disciplinary needs, priorities and vocabulary
 
  <br>
 
--   Collaborators are supported to develop and maintain the resources.
+-   Collaborators supported to develop and maintain the resources
 :::
 
 ::: {.column width="65%"}

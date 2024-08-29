@@ -48,26 +48,7 @@ or by scanning the QR code
 
 
 
-::: notes
-The aim of this presentation is to showcase the benefits and limitations of diversifying the use of Numbas to support teaching and learning across the University of Bath.
 
-In this presentation, we aim to highlight the changing nature of mathematics and statistics support at the University of Bath. - Setting the scene
-
-```         
--   What is Numbas?
--   Our team
-```
-
--   Numbas as a teaching and learning tool
-
-    -   Mathematics in other disciplines
-
-    -   Statistics and EXCEL skills
-
--   Benefits and limitations
-
--   Conclusion & future directions
-:::
 
 ##  {.nonincremental}
 
@@ -93,11 +74,6 @@ In this presentation, we aim to highlight the changing nature of mathematics and
 
 [^1]: Read the accessibility statement for the Numbas editor here: <https://docs.numbas.org.uk/en/latest/accessibility/editor.html>
 
-::: notes
-NUMBAS is a web-based system used to design open-source dynamic assessment questions for mathematical subjects. The use of NUMBAS was grounded on its accessibility and easy-to-use features.
-
-all of the criteria of WCAG 2.1 Level AAA except 2.2.4: Interruptions, 3.1.3: Unusual Words and 3.1.5: Reading Level, which are partially supported.
-:::
 
 ##  {.nonincremental}
 
@@ -155,17 +131,6 @@ cat(svg_code, file = "team.svg")
 :::
 :::
 
-::: notes
-(notes from last year) Up until late 2021 the MRC had two services MASH and SAS, both primarily student facing services.
-
-MASH (Maths and statistics Help) and SAS (statistics advisory service). For many years MASH/SAS had seen students with maths/stats problems in our regular drop in. Sometimes 'floods' occur, where lots of students come with the same problems within one unit/course and if we think the issue is significant enough we go to departments to report the issue but previous to our service being set up we didn't have capacity to provide guidance on how to improve the situation.
-
-Historically, one way out of this issues was that we were asked to teach some maths units for some departments but because we had limited capacity and were unable to offer this to all departments and so it was decided that we would support teaching collaborations rather than actually teach the units ourselves. The MAST service was set up to take on more of a consultative role between the skills centre and academics.
-
-So in summary we are a staff facing service MAST (Maths and Statistics Teaching) that sits alongside our student facing services.
-
-MAST is designed to support academics at the University of Bath who deliver mathematical and statistical content to students within their departments.
-:::
 
 ## Numbas for teaching and learning
 
@@ -193,9 +158,6 @@ MAST is designed to support academics at the University of Bath who deliver math
 :::
 :::
 
-::: notes
-Differentiate between focus on supporting students as a service versus supporting lecturers to improve the teaching in their alocated modules. These resources follow the content being taught with contextualised examples.
-:::
 
 ##  {.nonincremental .smaller}
 
@@ -290,7 +252,9 @@ cat(svg_code, file = "diagram.svg")
 ![](diagram.svg){fig-alt="Diagram depicting the roles of different groups in creating Numbas resources: Central Node labeled 'NUMBAS Resources' with an elliptical shape and a light purple background. Surrounding nodes include 'Core MASH and MAST Team' at the top, 'Collaborators' on the bottom left, and 'Casual Workers' on the bottom right. Arrows connect these surrounding nodes to the central node illustrating their contributions." fig-align="center" width="100%"}
 
 ::: notes
-It takes a village to make these resources - Core MASH and MAST team
+It takes a village to make these resources 
+
+- Core MASH and MAST team
 
 ```         
 -   Design of questions
@@ -339,33 +303,7 @@ It takes a village to make these resources - Core MASH and MAST team
 🚀 Promotes active learning and diversifying teaching practices
 :::
 
-::: notes
--   Flexibility and easy of use:
 
-    -   Supports a variety of question types, calculations with quantities (e.g., 25 cm), downloadable spreadsheets (e.g., csv)
-
-    -   We can use and create **extensions \[I need to explain what this is\]**
-
--   Randomisation:
-
-    -   Randomised numbers, data sets and context reducing rote learning
-
-    -   Tailoring questions to the needs and priorities of various academic disciplines
-
--   Adaptable:
-
-    -   Suitable for both GCSE/A-level and university-level content.
-
-    -   Suitable for practice, diagnostic and summative assessments.
-
--   Promotes active learning and diversifying teaching practices:
-
-    -   Engagement of students with interactive, self-paced learning resources for mathematical and statistical , with instant feedback
-
-    -   Facilitating a shift from direct instruction to active, self-paced learning.
-
-    -   Positive feedback from students and staff
-:::
 
 ## Challenges
 
@@ -381,23 +319,7 @@ It takes a village to make these resources - Core MASH and MAST team
 ⏳Time and resources
 :::
 
-::: notes
--   **Technology:**
 
-    -   Adapting the context of a question can be difficult
-
-    -   Troubleshooting technical issues is often time-consuming
-
-    -   No one-size-fits-all training for collaborators; requires personalized induction based on the discipline and their tech and maths confidence.
-
--   **Time and resources:**
-
-    -   We often work on tight time frames
-
-    -   Requires clear communication and hard deadlines
-
-    -   Each collaboration requires a tailored approach and ongoing evaluation
-:::
 
 ## In conclusion
 
@@ -417,45 +339,7 @@ It takes a village to make these resources - Core MASH and MAST team
     :::
 :::
 
-::: notes
--   Exploring the potentials of Numbas lead changed the way both students and staff engage with Mathematics and Statistics support support at the University of Bath.
 
-    -   Provisions for supporting struggling and curious students
-    -   Opportunities for collaboration, shared knowledge and practice
-    -   MASH and MAST are a hub for teaching and learning mathematics and statistics \[??? I need to think how to say this it sounds wierd\]
-
--   We are working together and help one another
-
--   We are developing a systematic review process for co-designed questions to ensure quality
-
-
--   What's next?
-
-    ::: nonincremental
-    -   Keep challenging the limits of Numbas and expand the MASH question bank
-    -   Explore and evaluate the use of Numbas in teaching non-mathematics specialists
-    :::
-
--   Widening the use of Numbas means that we have changed the way both students and staff engage with Mathematics and Statistics support at the University of Bath.
-
--   In addition to provisions for supporting struggling and curious students that interact with our resources or come to - our drop-ins, the nature of our contact with lecturers has changed, with more opportunities for collaboration, shared knowledge and practice.
-
--   Future:
-
-    MASH and MAST will keep working on our goals to support students' learning and enrich teaching practices
-
--   Keep trying using Numbas for teaching mathematics and statistics
-
--   Develop a systematic review process for new numbas questions (with shared principles and clear guidelines to ensure the quality of the resources produced as more and more - people are involved in the process. These guidelines will - go beyond the development of the question and into suggestions for use in teaching)
-
--   Developing and offering bespoke training sessions and advice
-
--   Keep adding resources to our database
-
--   MAST will keep working on our goals to support and enrich teaching practices
-
--   Explore and assess the use of Numbas in teaching identifying good practices to share across communities.
-:::
 
 ## Thank you {.center background-image="title_background.svg" background-size="cover"}
 
